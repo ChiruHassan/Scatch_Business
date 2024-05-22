@@ -1,7 +1,4 @@
 const mongoose = require("mongoose");
-const { type } = require("os");
-
-mongoose.connect("mongodb://serverlink/scatch");
 
 const userSchema = mongoose.Schema({
     fullname: String,
